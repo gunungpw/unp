@@ -72,3 +72,7 @@ def cli(files, silent, output, dump_command, forced_unpacker):
             unpacker.dump_command(output)
         else:
             unpacker.unpack(output)
+
+
+if __name__ == "__main__":
+    cli()

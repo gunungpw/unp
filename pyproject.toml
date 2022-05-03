@@ -20,7 +20,7 @@ packages = [
 ]
 
 [tool.poetry.scripts]
-unpack = "unp.console:cli"
+unpack = "unp.console:main"
 
 [tool.poetry.dependencies]
 python = "^3.7"
